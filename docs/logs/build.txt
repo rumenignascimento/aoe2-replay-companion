@@ -1,0 +1,13 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Companion.Core -> /workspace/work/aoe2-replay-companion/src/Companion.Core/bin/Release/net10.0/Companion.Core.dll
+  Companion.Scenarios -> /workspace/work/aoe2-replay-companion/src/Companion.Scenarios/bin/Release/net10.0/Companion.Scenarios.dll
+  Companion.Checks -> /workspace/work/aoe2-replay-companion/checks/Companion.Checks/bin/Release/net10.0/Companion.Checks.dll
+  Companion.Wpf -> /workspace/work/aoe2-replay-companion/src/Companion.Wpf/bin/Release/net10.0-windows/Companion.Wpf.dll
+  Companion.Cli -> /workspace/work/aoe2-replay-companion/src/Companion.Cli/bin/Release/net10.0/Companion.Cli.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.08

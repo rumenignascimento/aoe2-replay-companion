@@ -1,0 +1,18 @@
+name: Build and checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - run: dotnet build AoE2ReplayCompanion.sln -c Release
+      - run: dotnet run --project checks/Companion.Checks -c Release --no-build
+      - run: dotnet run --project src/Companion.Cli -c Release --no-build -- samples/simulated-demo.json

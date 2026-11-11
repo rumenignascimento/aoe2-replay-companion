@@ -1,0 +1,40 @@
+PASS inferioridade local e razão conhecida 4/10
+PASS forças iguais sem alerta
+PASS superioridade própria sem alerta
+PASS limiar exato não emite inferioridade
+PASS posição ausente impede conclusão enviesada
+PASS posição antiga é rejeitada
+PASS posição futura é rejeitada
+PASS HP desconhecido é rejeitado
+PASS cobertura incompleta causa abstenção
+PASS inimigos ocultos não alteram avaliação
+PASS sem inimigo visível não inventa confronto
+PASS bônus de contramedida altera razão
+PASS reduzir HP próprio reduz índice
+PASS reforços distantes do mesmo grupo geram alerta
+PASS outro grupo não é tratado como reforço
+PASS reforços próximos não geram alerta de atraso
+PASS velocidade zero não vira tempo infinito
+PASS estoque persistente com capacidade ociosa gera conclusão
+PASS reserva planejada protege poupança intencional
+PASS sem plano explícito motor se abstém
+PASS capacidade menor que renda não é ociosidade acionável
+PASS excesso transitório não dispara alerta
+PASS produção ocupada não dispara alerta
+PASS economia antiga não é evidência atual
+PASS duração maior que partida é inválida
+PASS IDs repetidos são rejeitados
+PASS jogador incoerente é rejeitado
+PASS valores não finitos causam abstenção
+PASS schema desconhecido é rejeitado
+PASS origem desconhecida é rejeitada
+PASS dados simulados não são aceitos como replay
+PASS mesmo documento produz exatamente o mesmo relatório
+PASS round-trip JSON preserva conclusões
+PASS ordem de entrada não muda linha do tempo
+PASS demonstração tem quatro conclusões identificadas como simuladas
+PASS JSON com campo desconhecido é rejeitado
+PASS perfil antigo pode omitir tecnologias e causa abstenção
+PASS coordenada omitida no JSON não vira zero
+PASS ordem das unidades não muda o resultado matemático
+39/39 verificações passaram.

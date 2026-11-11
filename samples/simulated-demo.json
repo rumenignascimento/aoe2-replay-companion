@@ -1,0 +1,2450 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "simulated-demonstration-v1",
+  "source": "Simulated",
+  "perspective": "Player",
+  "snapshots": [
+    {
+      "id": "equilibrio",
+      "timeSeconds": 480,
+      "playerId": 1,
+      "battle": {
+        "groupId": "main",
+        "center": {
+          "value": {
+            "x": 50,
+            "y": 50
+          },
+          "origin": "Simulated",
+          "atSeconds": 480
+        },
+        "visibleAreaComplete": {
+          "value": true,
+          "origin": "Simulated",
+          "atSeconds": 480
+        }
+      },
+      "units": [
+        {
+          "id": 1,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 2,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 3,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 4,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 5,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.5,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 6,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.6,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 7,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.7,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 8,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.8,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 101,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 102,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 103,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 104,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 105,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.5,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 106,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.6,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 107,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.7,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        },
+        {
+          "id": 108,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.8,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 480
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 480
+          }
+        }
+      ],
+      "economy": null
+    },
+    {
+      "id": "inferioridade-local",
+      "timeSeconds": 600,
+      "playerId": 1,
+      "battle": {
+        "groupId": "main",
+        "center": {
+          "value": {
+            "x": 50,
+            "y": 50
+          },
+          "origin": "Simulated",
+          "atSeconds": 600
+        },
+        "visibleAreaComplete": {
+          "value": true,
+          "origin": "Simulated",
+          "atSeconds": 600
+        }
+      },
+      "units": [
+        {
+          "id": 1,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 2,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 3,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 4,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 101,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 102,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 103,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 104,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 105,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.5,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 106,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.6,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 107,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.7,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 108,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.8,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 109,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.9,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        },
+        {
+          "id": 110,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 56,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 600
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 600
+          }
+        }
+      ],
+      "economy": null
+    },
+    {
+      "id": "reforcos-distantes",
+      "timeSeconds": 630,
+      "playerId": 1,
+      "battle": {
+        "groupId": "main",
+        "center": {
+          "value": {
+            "x": 50,
+            "y": 50
+          },
+          "origin": "Simulated",
+          "atSeconds": 630
+        },
+        "visibleAreaComplete": {
+          "value": true,
+          "origin": "Simulated",
+          "atSeconds": 630
+        }
+      },
+      "units": [
+        {
+          "id": 1,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 2,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 3,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 4,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 101,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 102,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 103,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 104,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 105,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.5,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 106,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.6,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 107,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.7,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 108,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.8,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 109,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.9,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 110,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 56,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 201,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.1
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 202,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.2
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 203,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.3
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 204,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.4
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 205,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.5
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 206,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.6
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 207,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.7
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        },
+        {
+          "id": 208,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 110,
+              "y": 50.8
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 630
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 630
+          }
+        }
+      ],
+      "economy": null
+    },
+    {
+      "id": "capacidade-ociosa",
+      "timeSeconds": 840,
+      "playerId": 1,
+      "battle": null,
+      "units": [],
+      "economy": {
+        "stock": {
+          "value": {
+            "food": 1000,
+            "wood": 1000,
+            "gold": 400,
+            "stone": 0,
+            "total": 2400,
+            "isValid": true
+          },
+          "origin": "Simulated",
+          "atSeconds": 840
+        },
+        "plannedReserve": {
+          "value": {
+            "food": 0,
+            "wood": 0,
+            "gold": 0,
+            "stone": 0,
+            "total": 0,
+            "isValid": true
+          },
+          "origin": "Simulated",
+          "atSeconds": 840
+        },
+        "incomePerSecond": {
+          "value": 8,
+          "origin": "Simulated",
+          "atSeconds": 840
+        },
+        "affordableSpendCapacityPerSecond": {
+          "value": 20,
+          "origin": "Simulated",
+          "atSeconds": 840
+        },
+        "idleProductionFraction": {
+          "value": 0.8,
+          "origin": "Simulated",
+          "atSeconds": 840
+        },
+        "sustainedExcessSeconds": {
+          "value": 90,
+          "origin": "Simulated",
+          "atSeconds": 840
+        }
+      }
+    },
+    {
+      "id": "reserva-para-plano",
+      "timeSeconds": 900,
+      "playerId": 1,
+      "battle": null,
+      "units": [],
+      "economy": {
+        "stock": {
+          "value": {
+            "food": 1000,
+            "wood": 1000,
+            "gold": 400,
+            "stone": 0,
+            "total": 2400,
+            "isValid": true
+          },
+          "origin": "Simulated",
+          "atSeconds": 900
+        },
+        "plannedReserve": {
+          "value": {
+            "food": 1200,
+            "wood": 1200,
+            "gold": 1200,
+            "stone": 0,
+            "total": 3600,
+            "isValid": true
+          },
+          "origin": "Simulated",
+          "atSeconds": 900
+        },
+        "incomePerSecond": {
+          "value": 8,
+          "origin": "Simulated",
+          "atSeconds": 900
+        },
+        "affordableSpendCapacityPerSecond": {
+          "value": 20,
+          "origin": "Simulated",
+          "atSeconds": 900
+        },
+        "idleProductionFraction": {
+          "value": 0.8,
+          "origin": "Simulated",
+          "atSeconds": 900
+        },
+        "sustainedExcessSeconds": {
+          "value": 90,
+          "origin": "Simulated",
+          "atSeconds": 900
+        }
+      }
+    },
+    {
+      "id": "cobertura-desconhecida",
+      "timeSeconds": 960,
+      "playerId": 1,
+      "battle": {
+        "groupId": "main",
+        "center": {
+          "value": {
+            "x": 50,
+            "y": 50
+          },
+          "origin": "Simulated",
+          "atSeconds": 960
+        },
+        "visibleAreaComplete": null
+      },
+      "units": [
+        {
+          "id": 1,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 2,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 3,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 4,
+          "playerId": 1,
+          "groupId": "main",
+          "knowledge": "Owned",
+          "position": {
+            "value": {
+              "x": 50.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 101,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.1,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 102,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.2,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 103,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.3,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 104,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.4,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 105,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.5,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 106,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.6,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 107,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.7,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 108,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.8,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 109,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 55.9,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        },
+        {
+          "id": 110,
+          "playerId": 2,
+          "groupId": "main",
+          "knowledge": "VisibleEnemy",
+          "position": {
+            "value": {
+              "x": 56,
+              "y": 50
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "hitPoints": {
+            "value": 60,
+            "origin": "Simulated",
+            "atSeconds": 960
+          },
+          "profile": {
+            "value": {
+              "class": "Infantry",
+              "damageKind": "Melee",
+              "attack": 6,
+              "reloadSeconds": 2,
+              "meleeArmor": 0,
+              "rangedArmor": 0,
+              "range": 1,
+              "speed": 1,
+              "bonusDamage": null
+            },
+            "origin": "Simulated",
+            "atSeconds": 960
+          }
+        }
+      ],
+      "economy": null
+    }
+  ]
+}

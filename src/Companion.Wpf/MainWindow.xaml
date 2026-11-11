@@ -1,0 +1,41 @@
+<Window x:Class="Companion.Wpf.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="AoE2 Replay Companion — laboratório de decisões" Width="1120" Height="760" MinWidth="850" MinHeight="600" Background="#111827" Foreground="#F9FAFB">
+  <Window.Resources>
+    <Style TargetType="Button"><Setter Property="MinHeight" Value="44"/><Setter Property="Padding" Value="16,8"/><Setter Property="Margin" Value="0,0,12,0"/></Style>
+    <Style TargetType="TextBlock"><Setter Property="TextWrapping" Value="Wrap"/></Style>
+  </Window.Resources>
+  <Grid Margin="24">
+    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+    <StackPanel>
+      <TextBlock Text="AoE2 Replay Companion" FontSize="28" FontWeight="Bold"/>
+      <TextBlock Text="Laboratório de decisões táticas e estratégicas" FontSize="17" Margin="0,6,0,16"/>
+    </StackPanel>
+    <WrapPanel Grid.Row="1" Margin="0,0,0,12">
+      <Button Content="Carregar demonstração simulada" Click="LoadDemo"/>
+      <Button Content="Abrir estados JSON…" Click="OpenDocument"/>
+      <Button Content="Exportar relatório JSON…" Click="ExportReport"/>
+    </WrapPanel>
+    <TextBlock Grid.Row="2" Text="{Binding DatasetLabel}" Background="#1F2937" Padding="12" Margin="0,0,0,16"/>
+    <Grid Grid.Row="3">
+      <Grid.ColumnDefinitions><ColumnDefinition Width="340"/><ColumnDefinition Width="16"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+      <Grid>
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+        <TextBlock Text="Linha do tempo de conclusões" FontSize="18" Margin="0,0,0,10"/>
+        <ListBox Grid.Row="1" ItemsSource="{Binding Findings}" SelectedItem="{Binding SelectedFinding}" Background="#1F2937" Foreground="#F9FAFB" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" AutomationProperties.Name="Conclusões em ordem cronológica">
+          <ListBox.ItemContainerStyle><Style TargetType="ListBoxItem"><Setter Property="HorizontalContentAlignment" Value="Stretch"/><Setter Property="Padding" Value="10"/><Setter Property="MinHeight" Value="64"/></Style></ListBox.ItemContainerStyle>
+          <ListBox.ItemTemplate><DataTemplate><StackPanel><TextBlock Text="{Binding TimeLabel}" Foreground="#93C5FD"/><TextBlock Text="{Binding Theme}" FontWeight="SemiBold" Margin="0,4,0,0"/></StackPanel></DataTemplate></ListBox.ItemTemplate>
+        </ListBox>
+      </Grid>
+      <ScrollViewer Grid.Column="2" VerticalScrollBarVisibility="Auto"><StackPanel>
+        <TextBlock Text="{Binding SelectedFinding.Theme}" FontSize="23" FontWeight="Bold"/>
+        <TextBlock Text="{Binding SelectedFinding.Confidence}" Foreground="#FCD34D" Margin="0,8,0,12"/>
+        <TextBlock Text="{Binding SelectedFinding.Message}" FontSize="17" Margin="0,0,0,16"/>
+        <TextBlock Text="{Binding SelectedDetails}" FontFamily="Consolas" Margin="0,0,0,20"/>
+        <TextBlock Text="Evidências e hipóteses" FontWeight="Bold" FontSize="18"/>
+        <ItemsControl ItemsSource="{Binding SelectedFinding.Evidence}"><ItemsControl.ItemTemplate><DataTemplate><TextBlock Text="{Binding}" Margin="0,8,0,0"/></DataTemplate></ItemsControl.ItemTemplate></ItemsControl>
+        <TextBlock Text="Diagnóstico da análise" FontWeight="Bold" FontSize="18" Margin="0,24,0,8"/>
+        <TextBlock Text="{Binding Diagnostics}"/>
+      </StackPanel></ScrollViewer>
+    </Grid>
+    <TextBlock Grid.Row="4" Text="{Binding Status}" Foreground="#D1D5DB" Margin="0,16,0,0"/>
+  </Grid>
+</Window>

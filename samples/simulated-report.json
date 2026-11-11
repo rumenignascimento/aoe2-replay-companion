@@ -1,0 +1,568 @@
+{
+  "datasetId": "simulated-demonstration-v1",
+  "source": "Simulated",
+  "assessments": [
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "snapshotId": "equilibrio",
+      "timeSeconds": 480,
+      "status": "NoFinding",
+      "reason": "A raz\u00E3o de for\u00E7a n\u00E3o cruza o limiar de inferioridade.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+      "snapshotId": "equilibrio",
+      "timeSeconds": 480,
+      "status": "NoFinding",
+      "reason": "Atraso, fra\u00E7\u00E3o de for\u00E7a distante ou inferioridade local n\u00E3o cruzam os limiares.",
+      "finding": null
+    },
+    {
+      "code": "STRATEGIC_IDLE_CAPACITY",
+      "snapshotId": "equilibrio",
+      "timeSeconds": 480,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam estoque, reserva planejada, renda, capacidade acess\u00EDvel, ociosidade ou dura\u00E7\u00E3o do excesso.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "snapshotId": "inferioridade-local",
+      "timeSeconds": 600,
+      "status": "Finding",
+      "reason": "O grupo tem \u00EDndice de for\u00E7a local 0.40 em rela\u00E7\u00E3o ao inimigo vis\u00EDvel. Considere reunir tropas ou evitar a troca imediata.",
+      "finding": {
+        "code": "TACTICAL_LOCAL_INFERIORITY",
+        "theme": "Superioridade militar local",
+        "snapshotId": "inferioridade-local",
+        "timeSeconds": 600,
+        "playerId": 1,
+        "source": "Simulated",
+        "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+        "message": "O grupo tem \u00EDndice de for\u00E7a local 0.40 em rela\u00E7\u00E3o ao inimigo vis\u00EDvel. Considere reunir tropas ou evitar a troca imediata.",
+        "metrics": [
+          {
+            "name": "ownLocalPower",
+            "value": 53.665631459994955,
+            "unit": "index"
+          },
+          {
+            "name": "enemyLocalPower",
+            "value": 134.16407864998743,
+            "unit": "index"
+          },
+          {
+            "name": "localPowerRatio",
+            "value": 0.39999999999999986,
+            "unit": "ratio"
+          }
+        ],
+        "evidence": [
+          "4 unidades pr\u00F3prias e 10 inimigas vis\u00EDveis no raio de 18 quadrados.",
+          "\u00CDndice = soma de sqrt(HP atual \u00D7 DPS m\u00E9dio contra a composi\u00E7\u00E3o oposta).",
+          "Sem simula\u00E7\u00E3o de caminho, foco de fogo, proj\u00E9teis ou resultado da batalha."
+        ],
+        "unitIds": [
+          1,
+          2,
+          3,
+          4,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "timeLabel": "00:10:00"
+      }
+    },
+    {
+      "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+      "snapshotId": "inferioridade-local",
+      "timeSeconds": 600,
+      "status": "NoFinding",
+      "reason": "Atraso, fra\u00E7\u00E3o de for\u00E7a distante ou inferioridade local n\u00E3o cruzam os limiares.",
+      "finding": null
+    },
+    {
+      "code": "STRATEGIC_IDLE_CAPACITY",
+      "snapshotId": "inferioridade-local",
+      "timeSeconds": 600,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam estoque, reserva planejada, renda, capacidade acess\u00EDvel, ociosidade ou dura\u00E7\u00E3o do excesso.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "snapshotId": "reforcos-distantes",
+      "timeSeconds": 630,
+      "status": "Finding",
+      "reason": "O grupo tem \u00EDndice de for\u00E7a local 0.40 em rela\u00E7\u00E3o ao inimigo vis\u00EDvel. Considere reunir tropas ou evitar a troca imediata.",
+      "finding": {
+        "code": "TACTICAL_LOCAL_INFERIORITY",
+        "theme": "Superioridade militar local",
+        "snapshotId": "reforcos-distantes",
+        "timeSeconds": 630,
+        "playerId": 1,
+        "source": "Simulated",
+        "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+        "message": "O grupo tem \u00EDndice de for\u00E7a local 0.40 em rela\u00E7\u00E3o ao inimigo vis\u00EDvel. Considere reunir tropas ou evitar a troca imediata.",
+        "metrics": [
+          {
+            "name": "ownLocalPower",
+            "value": 53.665631459994955,
+            "unit": "index"
+          },
+          {
+            "name": "enemyLocalPower",
+            "value": 134.16407864998743,
+            "unit": "index"
+          },
+          {
+            "name": "localPowerRatio",
+            "value": 0.39999999999999986,
+            "unit": "ratio"
+          }
+        ],
+        "evidence": [
+          "4 unidades pr\u00F3prias e 10 inimigas vis\u00EDveis no raio de 18 quadrados.",
+          "\u00CDndice = soma de sqrt(HP atual \u00D7 DPS m\u00E9dio contra a composi\u00E7\u00E3o oposta).",
+          "Sem simula\u00E7\u00E3o de caminho, foco de fogo, proj\u00E9teis ou resultado da batalha."
+        ],
+        "unitIds": [
+          1,
+          2,
+          3,
+          4,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "timeLabel": "00:10:30"
+      }
+    },
+    {
+      "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+      "snapshotId": "reforcos-distantes",
+      "timeSeconds": 630,
+      "status": "Finding",
+      "reason": "8 unidades do mesmo grupo est\u00E3o a pelo menos 42.00 s da \u00E1rea local, em estimativa sem obst\u00E1culos. O grupo local est\u00E1 em inferioridade; considere concentrar as tropas.",
+      "finding": {
+        "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+        "theme": "Concentra\u00E7\u00E3o do ex\u00E9rcito",
+        "snapshotId": "reforcos-distantes",
+        "timeSeconds": 630,
+        "playerId": 1,
+        "source": "Simulated",
+        "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+        "message": "8 unidades do mesmo grupo est\u00E3o a pelo menos 42.00 s da \u00E1rea local, em estimativa sem obst\u00E1culos. O grupo local est\u00E1 em inferioridade; considere concentrar as tropas.",
+        "metrics": [
+          {
+            "name": "ownLocalPower",
+            "value": 53.665631459994955,
+            "unit": "index"
+          },
+          {
+            "name": "enemyLocalPower",
+            "value": 134.16407864998743,
+            "unit": "index"
+          },
+          {
+            "name": "localPowerRatio",
+            "value": 0.39999999999999986,
+            "unit": "ratio"
+          },
+          {
+            "name": "delayedPowerFraction",
+            "value": 0.6666666666666666,
+            "unit": "fraction"
+          },
+          {
+            "name": "minimumArrivalSeconds",
+            "value": 42.00008333327546,
+            "unit": "seconds"
+          }
+        ],
+        "evidence": [
+          "4 unidades pr\u00F3prias e 10 inimigas vis\u00EDveis no raio de 18 quadrados.",
+          "\u00CDndice = soma de sqrt(HP atual \u00D7 DPS m\u00E9dio contra a composi\u00E7\u00E3o oposta).",
+          "Sem simula\u00E7\u00E3o de caminho, foco de fogo, proj\u00E9teis ou resultado da batalha.",
+          "Refor\u00E7os pertencem ao mesmo grupo expl\u00EDcito. Dist\u00E2ncia em linha reta at\u00E9 a borda do raio \u00F7 velocidade; n\u00E3o comprova inten\u00E7\u00E3o de refor\u00E7ar."
+        ],
+        "unitIds": [
+          1,
+          2,
+          3,
+          4,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208
+        ],
+        "timeLabel": "00:10:30"
+      }
+    },
+    {
+      "code": "STRATEGIC_IDLE_CAPACITY",
+      "snapshotId": "reforcos-distantes",
+      "timeSeconds": 630,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam estoque, reserva planejada, renda, capacidade acess\u00EDvel, ociosidade ou dura\u00E7\u00E3o do excesso.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "snapshotId": "capacidade-ociosa",
+      "timeSeconds": 840,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam centro, grupo ou cobertura confirmada da \u00E1rea vis\u00EDvel no instante avaliado.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+      "snapshotId": "capacidade-ociosa",
+      "timeSeconds": 840,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam centro, grupo ou cobertura confirmada da \u00E1rea vis\u00EDvel no instante avaliado.",
+      "finding": null
+    },
+    {
+      "code": "STRATEGIC_IDLE_CAPACITY",
+      "snapshotId": "capacidade-ociosa",
+      "timeSeconds": 840,
+      "status": "Finding",
+      "reason": "H\u00E1 2400.00 recursos acima da reserva planejada h\u00E1 90.00 s, com produ\u00E7\u00E3o ociosa e capacidade de gasto superior \u00E0 renda. Considere usar a capacidade dispon\u00EDvel conforme seu plano.",
+      "finding": {
+        "code": "STRATEGIC_IDLE_CAPACITY",
+        "theme": "Uso da capacidade econ\u00F4mica",
+        "snapshotId": "capacidade-ociosa",
+        "timeSeconds": 840,
+        "playerId": 1,
+        "source": "Simulated",
+        "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+        "message": "H\u00E1 2400.00 recursos acima da reserva planejada h\u00E1 90.00 s, com produ\u00E7\u00E3o ociosa e capacidade de gasto superior \u00E0 renda. Considere usar a capacidade dispon\u00EDvel conforme seu plano.",
+        "metrics": [
+          {
+            "name": "excessResources",
+            "value": 2400,
+            "unit": "resources"
+          },
+          {
+            "name": "sustainedExcessSeconds",
+            "value": 90,
+            "unit": "seconds"
+          },
+          {
+            "name": "incomePerSecond",
+            "value": 8,
+            "unit": "resources/second"
+          },
+          {
+            "name": "affordableSpendCapacityPerSecond",
+            "value": 20,
+            "unit": "resources/second"
+          },
+          {
+            "name": "idleProductionFraction",
+            "value": 0.8,
+            "unit": "fraction"
+          }
+        ],
+        "evidence": [
+          "Reserva planejada expl\u00EDcita por recurso; estoque sozinho n\u00E3o comprova erro.",
+          "Capacidade deve descontar custos inacess\u00EDveis, popula\u00E7\u00E3o bloqueada e produ\u00E7\u00E3o indispon\u00EDvel.",
+          "Persist\u00EAncia do excesso \u00E9 fornecida pelo adaptador com hist\u00F3rico; n\u00E3o \u00E9 inferida de um \u00FAnico estoque."
+        ],
+        "unitIds": [],
+        "timeLabel": "00:14:00"
+      }
+    },
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "snapshotId": "reserva-para-plano",
+      "timeSeconds": 900,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam centro, grupo ou cobertura confirmada da \u00E1rea vis\u00EDvel no instante avaliado.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+      "snapshotId": "reserva-para-plano",
+      "timeSeconds": 900,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam centro, grupo ou cobertura confirmada da \u00E1rea vis\u00EDvel no instante avaliado.",
+      "finding": null
+    },
+    {
+      "code": "STRATEGIC_IDLE_CAPACITY",
+      "snapshotId": "reserva-para-plano",
+      "timeSeconds": 900,
+      "status": "NoFinding",
+      "reason": "Sem excesso persistente com capacidade acess\u00EDvel ociosa acima da renda.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "snapshotId": "cobertura-desconhecida",
+      "timeSeconds": 960,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam centro, grupo ou cobertura confirmada da \u00E1rea vis\u00EDvel no instante avaliado.",
+      "finding": null
+    },
+    {
+      "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+      "snapshotId": "cobertura-desconhecida",
+      "timeSeconds": 960,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam centro, grupo ou cobertura confirmada da \u00E1rea vis\u00EDvel no instante avaliado.",
+      "finding": null
+    },
+    {
+      "code": "STRATEGIC_IDLE_CAPACITY",
+      "snapshotId": "cobertura-desconhecida",
+      "timeSeconds": 960,
+      "status": "InsufficientEvidence",
+      "reason": "Faltam estoque, reserva planejada, renda, capacidade acess\u00EDvel, ociosidade ou dura\u00E7\u00E3o do excesso.",
+      "finding": null
+    }
+  ],
+  "findings": [
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "theme": "Superioridade militar local",
+      "snapshotId": "inferioridade-local",
+      "timeSeconds": 600,
+      "playerId": 1,
+      "source": "Simulated",
+      "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+      "message": "O grupo tem \u00EDndice de for\u00E7a local 0.40 em rela\u00E7\u00E3o ao inimigo vis\u00EDvel. Considere reunir tropas ou evitar a troca imediata.",
+      "metrics": [
+        {
+          "name": "ownLocalPower",
+          "value": 53.665631459994955,
+          "unit": "index"
+        },
+        {
+          "name": "enemyLocalPower",
+          "value": 134.16407864998743,
+          "unit": "index"
+        },
+        {
+          "name": "localPowerRatio",
+          "value": 0.39999999999999986,
+          "unit": "ratio"
+        }
+      ],
+      "evidence": [
+        "4 unidades pr\u00F3prias e 10 inimigas vis\u00EDveis no raio de 18 quadrados.",
+        "\u00CDndice = soma de sqrt(HP atual \u00D7 DPS m\u00E9dio contra a composi\u00E7\u00E3o oposta).",
+        "Sem simula\u00E7\u00E3o de caminho, foco de fogo, proj\u00E9teis ou resultado da batalha."
+      ],
+      "unitIds": [
+        1,
+        2,
+        3,
+        4,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "timeLabel": "00:10:00"
+    },
+    {
+      "code": "TACTICAL_DELAYED_REINFORCEMENTS",
+      "theme": "Concentra\u00E7\u00E3o do ex\u00E9rcito",
+      "snapshotId": "reforcos-distantes",
+      "timeSeconds": 630,
+      "playerId": 1,
+      "source": "Simulated",
+      "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+      "message": "8 unidades do mesmo grupo est\u00E3o a pelo menos 42.00 s da \u00E1rea local, em estimativa sem obst\u00E1culos. O grupo local est\u00E1 em inferioridade; considere concentrar as tropas.",
+      "metrics": [
+        {
+          "name": "ownLocalPower",
+          "value": 53.665631459994955,
+          "unit": "index"
+        },
+        {
+          "name": "enemyLocalPower",
+          "value": 134.16407864998743,
+          "unit": "index"
+        },
+        {
+          "name": "localPowerRatio",
+          "value": 0.39999999999999986,
+          "unit": "ratio"
+        },
+        {
+          "name": "delayedPowerFraction",
+          "value": 0.6666666666666666,
+          "unit": "fraction"
+        },
+        {
+          "name": "minimumArrivalSeconds",
+          "value": 42.00008333327546,
+          "unit": "seconds"
+        }
+      ],
+      "evidence": [
+        "4 unidades pr\u00F3prias e 10 inimigas vis\u00EDveis no raio de 18 quadrados.",
+        "\u00CDndice = soma de sqrt(HP atual \u00D7 DPS m\u00E9dio contra a composi\u00E7\u00E3o oposta).",
+        "Sem simula\u00E7\u00E3o de caminho, foco de fogo, proj\u00E9teis ou resultado da batalha.",
+        "Refor\u00E7os pertencem ao mesmo grupo expl\u00EDcito. Dist\u00E2ncia em linha reta at\u00E9 a borda do raio \u00F7 velocidade; n\u00E3o comprova inten\u00E7\u00E3o de refor\u00E7ar."
+      ],
+      "unitIds": [
+        1,
+        2,
+        3,
+        4,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208
+      ],
+      "timeLabel": "00:10:30"
+    },
+    {
+      "code": "TACTICAL_LOCAL_INFERIORITY",
+      "theme": "Superioridade militar local",
+      "snapshotId": "reforcos-distantes",
+      "timeSeconds": 630,
+      "playerId": 1,
+      "source": "Simulated",
+      "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+      "message": "O grupo tem \u00EDndice de for\u00E7a local 0.40 em rela\u00E7\u00E3o ao inimigo vis\u00EDvel. Considere reunir tropas ou evitar a troca imediata.",
+      "metrics": [
+        {
+          "name": "ownLocalPower",
+          "value": 53.665631459994955,
+          "unit": "index"
+        },
+        {
+          "name": "enemyLocalPower",
+          "value": 134.16407864998743,
+          "unit": "index"
+        },
+        {
+          "name": "localPowerRatio",
+          "value": 0.39999999999999986,
+          "unit": "ratio"
+        }
+      ],
+      "evidence": [
+        "4 unidades pr\u00F3prias e 10 inimigas vis\u00EDveis no raio de 18 quadrados.",
+        "\u00CDndice = soma de sqrt(HP atual \u00D7 DPS m\u00E9dio contra a composi\u00E7\u00E3o oposta).",
+        "Sem simula\u00E7\u00E3o de caminho, foco de fogo, proj\u00E9teis ou resultado da batalha."
+      ],
+      "unitIds": [
+        1,
+        2,
+        3,
+        4,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "timeLabel": "00:10:30"
+    },
+    {
+      "code": "STRATEGIC_IDLE_CAPACITY",
+      "theme": "Uso da capacidade econ\u00F4mica",
+      "snapshotId": "capacidade-ociosa",
+      "timeSeconds": 840,
+      "playerId": 1,
+      "source": "Simulated",
+      "confidence": "Simulada \u2014 heur\u00EDstica n\u00E3o calibrada",
+      "message": "H\u00E1 2400.00 recursos acima da reserva planejada h\u00E1 90.00 s, com produ\u00E7\u00E3o ociosa e capacidade de gasto superior \u00E0 renda. Considere usar a capacidade dispon\u00EDvel conforme seu plano.",
+      "metrics": [
+        {
+          "name": "excessResources",
+          "value": 2400,
+          "unit": "resources"
+        },
+        {
+          "name": "sustainedExcessSeconds",
+          "value": 90,
+          "unit": "seconds"
+        },
+        {
+          "name": "incomePerSecond",
+          "value": 8,
+          "unit": "resources/second"
+        },
+        {
+          "name": "affordableSpendCapacityPerSecond",
+          "value": 20,
+          "unit": "resources/second"
+        },
+        {
+          "name": "idleProductionFraction",
+          "value": 0.8,
+          "unit": "fraction"
+        }
+      ],
+      "evidence": [
+        "Reserva planejada expl\u00EDcita por recurso; estoque sozinho n\u00E3o comprova erro.",
+        "Capacidade deve descontar custos inacess\u00EDveis, popula\u00E7\u00E3o bloqueada e produ\u00E7\u00E3o indispon\u00EDvel.",
+        "Persist\u00EAncia do excesso \u00E9 fornecida pelo adaptador com hist\u00F3rico; n\u00E3o \u00E9 inferida de um \u00FAnico estoque."
+      ],
+      "unitIds": [],
+      "timeLabel": "00:14:00"
+    }
+  ]
+}
