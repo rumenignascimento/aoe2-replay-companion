@@ -68,4 +68,15 @@ Precisamos de uma fonte de estados temporais confiáveis. Um adaptador de replay
 
 Antes de habilitar dados reais, será necessário mapear unidades e tecnologias para perfis versionados do jogo, validar visibilidade, formar grupos com critérios explícitos e reconstruir economia com histórico. Campos indisponíveis devem causar abstenção. Consulte `docs/ENGINE.md`.
 
-Este é um repositório Git local, sem remoto publicado. Após extrair o ZIP de código-fonte, execute `git init -b main` para iniciar seu próprio histórico, caso não esteja trabalhando no repositório já inicializado no ambiente. A publicação no GitHub pode ser feita posteriormente na conta escolhida pelo proprietário.
+## Acessar o repositório
+
+Repositório: https://github.com/rumenignascimento/aoe2-replay-companion
+
+Para clonar um repositório privado, autentique-se no GitHub com uma conta que tenha acesso. Com a CLI do GitHub:
+
+```sh
+gh repo clone rumenignascimento/aoe2-replay-companion
+cd aoe2-replay-companion
+```
+
+No navegador, a opção **Code → Download ZIP** baixa o código-fonte sem o histórico Git. Para compilar e executar, siga os comandos da seção Executar.
