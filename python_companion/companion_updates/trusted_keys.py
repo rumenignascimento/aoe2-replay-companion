@@ -1,5 +1,2 @@
-"""Public Ed25519 keys, populated before compilation by tools/signing.py.
-
-An empty keyring disables unsigned online updates. No trust-on-first-use.
-"""
-PUBLIC_KEYS = {}
+"""Public verification keys. Private signing material is stored outside this repository."""
+PUBLIC_KEYS = {'33804ac7e6d5cbccb61bf8ec': 'nufYUE7sGGYLHXp5neI4PYOks4v2Nq0+zxRvZR1ewFQ='}
