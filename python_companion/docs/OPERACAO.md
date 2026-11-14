@@ -8,12 +8,12 @@ A chave privada do publicador fica fora do projeto. Não é criada nem incluída
 
 ## GitHub Actions
 
-O workflow de testes roda em push/PR na área Python e não usa segredos. O workflow de compilação/publicação é acionado manualmente e usa o ambiente `companion-release`.
+O workflow de testes roda em push/PR na área Python e não usa segredos. O workflow de compilação/publicação é acionado manualmente. Por padrão usa Secrets de Actions do repositório privado, sem exigir recursos pagos de proteção de ambientes.
 
 Antes de acioná-lo:
 
 1. Execute `preparar_projeto.py` no Windows e registre SOMENTE `companion_updates/trusted_keys.py` no repositório privado.
-2. Nas configurações do repositório PRIVADO, crie o ambiente `companion-release`; configure revisores se desejar aprovar o envio.
+2. Abra Settings → Secrets and variables → Actions do repositório PRIVADO. Se seu plano permitir e você desejar proteção adicional, adapte o workflow para um Environment com revisores; isso é opcional.
 3. Pelo campo Secrets do GitHub, configure `COMPANION_SIGNING_KEY_PEM` com a chave privada. Não a cole no código, no terminal de CI ou em conversas.
 4. Se quiser envio de rascunho automático, configure também `COMPANION_RELEASES_TOKEN`: um token restrito ao repositório PÚBLICO de atualizações, com Contents:write. Alternativamente, use um GitHub App com a mesma permissão.
 
