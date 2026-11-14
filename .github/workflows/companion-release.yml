@@ -1,0 +1,50 @@
+name: Build Python Companion release draft
+on:
+  workflow_dispatch:
+    inputs:
+      upload_draft:
+        description: 'Enviar rascunho dos binários assinados ao repositório público'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: python-companion-release
+  cancel-in-progress: false
+jobs:
+  windows-build:
+    runs-on: windows-latest
+    environment: companion-release
+    defaults:
+      run:
+        working-directory: python_companion
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: 'x64'
+      - name: Compilar aplicação e aplicador (sem Inno Setup)
+        run: python gerar_instalador.py --somente-executavel
+      - name: Testar protocolo e transações
+        run: .venv/Scripts/python -m unittest discover -s tests -v
+      - name: Preparar pacotes assinados
+        env:
+          COMPANION_SIGNING_KEY_PEM: ${{ secrets.COMPANION_SIGNING_KEY_PEM }}
+        run: .venv/Scripts/python -m tools.publish_release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-companion-signed-release
+          path: python_companion/publicacao_github/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Enviar apenas rascunho ao repositório público
+        if: ${{ inputs.upload_draft }}
+        env:
+          GH_TOKEN: ${{ secrets.COMPANION_RELEASES_TOKEN }}
+        run: |
+          $folder = Get-ChildItem publicacao_github -Directory | Select-Object -First 1
+          $version = $folder.Name.Substring(1)
+          $assets = @("$($folder.FullName)/updates.json", "$($folder.FullName)/SHA256SUMS.txt")
+          $assets += (Get-ChildItem $folder.FullName -Filter *.aoe2patch).FullName
+          gh release create "v$version" --repo rumenignascimento/aoe2-companion-updates --draft --title "AoE II Replay Companion $version" --notes-file "$($folder.FullName)/NOTAS_RELEASE.md" @assets

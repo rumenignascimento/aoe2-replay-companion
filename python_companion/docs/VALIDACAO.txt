@@ -1,0 +1,33 @@
+test_offline_does_not_interrupt_application (test_controller_gui.ControllerGUI.test_offline_does_not_interrupt_application) ... ok
+test_startup_downloads_without_manual_click_and_ui_responds (test_controller_gui.ControllerGUI.test_startup_downloads_without_manual_click_and_ui_responds) ... ok
+test_bad_size_and_duplicate_assets_rejected (test_updates.Updates.test_bad_size_and_duplicate_assets_rejected) ... ok
+test_bundled_asset_updates_without_touching_preferences (test_updates.Updates.test_bundled_asset_updates_without_touching_preferences) ... ok
+test_cached_download_needs_matching_hash (test_updates.Updates.test_cached_download_needs_matching_hash) ... ok
+test_corrupt_full_payload_no_mutations (test_updates.Updates.test_corrupt_full_payload_no_mutations) ... ok
+test_delta_format_remains_legacy_compatible (test_updates.Updates.test_delta_format_remains_legacy_compatible) ... ok
+test_download_hash_and_partial_cleanup (test_updates.Updates.test_download_hash_and_partial_cleanup) ... ok
+test_frozen_spawn_resets_parent_bundle_environment (test_updates.Updates.test_frozen_spawn_resets_parent_bundle_environment) ... ok
+test_full_update_preserves_preferences_uninstaller_and_rollback (test_updates.Updates.test_full_update_preserves_preferences_uninstaller_and_rollback) ... ok
+test_generated_launcher_compiles (test_updates.Updates.test_generated_launcher_compiles) ... ok
+test_health_timeout_rolls_back_and_reopens_old_version (test_updates.Updates.test_health_timeout_rolls_back_and_reopens_old_version) ... ok
+test_invalid_version_rejected (test_updates.Updates.test_invalid_version_rejected) ... ok
+test_key_initialization_keeps_secret_outside_public_code (test_updates.Updates.test_key_initialization_keeps_secret_outside_public_code) ... ok
+test_legacy_migration_by_full_package_keeps_unknown_files (test_updates.Updates.test_legacy_migration_by_full_package_keeps_unknown_files) ... ok
+test_path_tree_collision_rejected (test_updates.Updates.test_path_tree_collision_rejected) ... ok
+test_publisher_rejects_build_that_does_not_trust_its_key (test_updates.Updates.test_publisher_rejects_build_that_does_not_trust_its_key) ... ok
+test_publisher_stages_only_compiled_assets (test_updates.Updates.test_publisher_stages_only_compiled_assets) ... ok
+test_runtime_original_sources_preserved (test_updates.Updates.test_runtime_original_sources_preserved) ... ok
+test_select_patch_then_full_and_never_downgrade (test_updates.Updates.test_select_patch_then_full_and_never_downgrade) ... ok
+test_signature_accepts_pinned_publisher (test_updates.Updates.test_signature_accepts_pinned_publisher) ... ok
+test_successful_health_ack_commits_new_version (test_updates.Updates.test_successful_health_ack_commits_new_version) ... ok
+test_tampering_rejected (test_updates.Updates.test_tampering_rejected) ... ok
+test_transport_hosts_enforced (test_updates.Updates.test_transport_hosts_enforced) ... ok
+test_unknown_publisher_rejected (test_updates.Updates.test_unknown_publisher_rejected) ... ok
+test_unsigned_manifest_rejected (test_updates.Updates.test_unsigned_manifest_rejected) ... ok
+test_windows_paths_rejected (test_updates.Updates.test_windows_paths_rejected) ... ok
+test_wrong_host_rejected_even_when_signed (test_updates.Updates.test_wrong_host_rejected_even_when_signed) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 3.900s
+
+OK

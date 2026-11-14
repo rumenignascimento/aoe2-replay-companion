@@ -1,0 +1,187 @@
+{
+  "12": {
+    "name": "Barracks",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/2.png",
+    "sha256": "4198a60591b17fda07b48b57cbad43e6620e3618867882138d1fed39774352b0"
+  },
+  "45": {
+    "name": "Dock",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/13.png",
+    "sha256": "17ba0932215f01f44ec42f1a7bb9964d742c11e9c3ba6de3bb38e3527532d4e9"
+  },
+  "49": {
+    "name": "Siege Workshop",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/22.png",
+    "sha256": "a63ed7edbc550b7916fe2213c7e7b890ba704a0c3624f7e207b7d9c461746f65"
+  },
+  "50": {
+    "name": "Farm",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/35.png",
+    "sha256": "9ff16a07492cc8fb9f8c51cbad0444d5218e6637f785a261b6629db257e2e4c9"
+  },
+  "68": {
+    "name": "Mill",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/19.png",
+    "sha256": "56578ebb5a4f4ae6de215fe0b2b7185d596be20a64995c069a336f50d718a411"
+  },
+  "70": {
+    "name": "House",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/34.png",
+    "sha256": "1f983df1d738199517749225dfc19919cf689658653b8cdabffcbb0b2471a7e9"
+  },
+  "72": {
+    "name": "Palisade Wall",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/30.png",
+    "sha256": "af8ed44884e52834e7c653d5e51d5baa8fae9b053b1eae9df1755b392c5a824c"
+  },
+  "79": {
+    "name": "Watch Tower",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/25.png",
+    "sha256": "c37be6753f9d8e4d41b892a747f769b64728ba9737b55801eaf6faf83db0a1ef"
+  },
+  "82": {
+    "name": "Castle",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/7.png",
+    "sha256": "701d9fc3add461d23ed2bbe244172e1a5dec903bed113000c498435441dc80c9"
+  },
+  "84": {
+    "name": "Market",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/16.png",
+    "sha256": "efd5891419d4faefb62556dd70e31884dd3457bba26a4eb89aec123588d92671"
+  },
+  "87": {
+    "name": "Archery Range",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/0.png",
+    "sha256": "481171f30ac2314bce39b9ebc3c020339e2452a1b091df03546e024d34a7b257"
+  },
+  "101": {
+    "name": "Stable",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/23.png",
+    "sha256": "547b2cf7771cdda392ef1fe9724f0ebc4fafa2669fb755a59681f61e2a23860c"
+  },
+  "103": {
+    "name": "Blacksmith",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/4.png",
+    "sha256": "a4b7228e1e6ad9fee113a304e6edf761b7b5bf9993e86cc0f2b5ccf1246aedf9"
+  },
+  "104": {
+    "name": "Monastery",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/10.png",
+    "sha256": "18c4b8e689b93be80e9c4002fb1c9bc08238dbdba90b755b2a04d4926290caf9"
+  },
+  "109": {
+    "name": "Town Center",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/28.png",
+    "sha256": "5c8e27c91b9b4950f3adf9cefbdacae56378a982a7d5eec1c65d8763ad88e7d2"
+  },
+  "117": {
+    "name": "Stone Wall",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/31.png",
+    "sha256": "433b80339e0a18970e037fb61a69cf1ad5a6a7092da73e9cb3a3523f274f03e3"
+  },
+  "155": {
+    "name": "Fortified Wall",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/32.png",
+    "sha256": "143314d165b1589190d90b0a8498c861894bac5c46122226c521a62093d158d3"
+  },
+  "209": {
+    "name": "University",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/33.png",
+    "sha256": "fefd3e8029471cfe39f3b509771278fdeb2f56cd2927124940196e3424f732cd"
+  },
+  "234": {
+    "name": "Guard Tower",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/27.png",
+    "sha256": "1b9c6d4f3139fc5e01b14845a182f06ee8291ed38ceaeb192c68bebea0821fea"
+  },
+  "235": {
+    "name": "Keep",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/26.png",
+    "sha256": "633f03ce6a6eeef9c5aa64b0252c5f24b20cfbc39bd18cd11c6ef3b280597fbe"
+  },
+  "236": {
+    "name": "Bombard Tower",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/42.png",
+    "sha256": "5a15323cb0e721ca92b533516883361917dc0965e2aef9d5dfecb89bb0452c20"
+  },
+  "276": {
+    "name": "Wonder",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/37.png",
+    "sha256": "8d2574d4e0a35e64d93f77138279b88ffb6baa9f7e0f67209aede7412cfdf87d"
+  },
+  "487": {
+    "name": "Gate",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/36.png",
+    "sha256": "e690f682bff8af4b5bbcfec37e8652686d3f9e3e78eee1138628215e6aa06101"
+  },
+  "562": {
+    "name": "Lumber Camp",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/40.png",
+    "sha256": "074c3a229b4e96f38aec5c86ff26ff93217c2b62b50954a06d66e6ab817a905b"
+  },
+  "584": {
+    "name": "Mining Camp",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/39.png",
+    "sha256": "71f4f0c451a8d9428b3ad070667919560815aa80435b65e931ca393e42a4f559"
+  },
+  "598": {
+    "name": "Outpost",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/38.png",
+    "sha256": "3e8e1884ed4adb98b5dc6499039b5f4c2363cd4f6e5cf84e6adf51368c18b287"
+  },
+  "621": {
+    "name": "Town Center",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/28.png",
+    "sha256": "5c8e27c91b9b4950f3adf9cefbdacae56378a982a7d5eec1c65d8763ad88e7d2"
+  },
+  "792": {
+    "name": "Palisade Gate",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/44.png",
+    "sha256": "9f85f5b6a2d1a6fcd009d4b3a8ae540f3cda9e02c1131f1e22b0a03e280c46c5"
+  },
+  "1021": {
+    "name": "Feitoria",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/53.png",
+    "sha256": "28bd7cf35d84871e268dc2db3ee42b07736fb74c42e5074035689a4357da7bdf"
+  },
+  "1251": {
+    "name": "Krepost",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/55.png",
+    "sha256": "16147710606ff362e40d4ba292b1e7fc15f2d85f5df5933e919e54241c4044db"
+  },
+  "1665": {
+    "name": "Donjon",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/84.png",
+    "sha256": "28d3d10bac386ba1ad535fb1ae774ab800b9201077450a85f4f1e7dc1bdbd1b2"
+  },
+  "1734": {
+    "name": "Folwark",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/86.png",
+    "sha256": "538d52ae4c065a8d8790c1ca846d92388ceb7d96d5f8659c389f48fb48888139"
+  },
+  "1754": {
+    "name": "Caravanserai",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/87.png",
+    "sha256": "d2167ff8661e84a888f41821f9fa979e8afe81d4395800036c0321c3d30a6fc0"
+  },
+  "1806": {
+    "name": "Fortified Church",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/88.png",
+    "sha256": "79b181b60d7d75cc8d10b584a6d4add129742d0114c37eca19e2461fe782ef1e"
+  },
+  "1808": {
+    "name": "Mule Cart",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/89.png",
+    "sha256": "8b51b0d02a4086af34e9f641964f00c5d28073b1ae9f6bdcbdab87aa9a1d51e7"
+  },
+  "1889": {
+    "name": "Pasture",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/96.png",
+    "sha256": "cd90e723e1f7278bfa0f674ae340dc515cb98d8807912628a546bd0ad3b5ea63"
+  },
+  "2556": {
+    "name": "Settlement",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/98.png",
+    "sha256": "16319412f5414f66ab47b4bc4884d73dfc69d2a283efe924c1651fbcb0bb78aa"
+  }
+}

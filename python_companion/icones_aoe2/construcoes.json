@@ -1,0 +1,102 @@
+{
+  "12": {
+    "name": "Quartel",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/2.png",
+    "sha256": "4198a60591b17fda07b48b57cbad43e6620e3618867882138d1fed39774352b0"
+  },
+  "45": {
+    "name": "Porto",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/13.png",
+    "sha256": "17ba0932215f01f44ec42f1a7bb9964d742c11e9c3ba6de3bb38e3527532d4e9"
+  },
+  "49": {
+    "name": "Oficina de cerco",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/22.png",
+    "sha256": "a63ed7edbc550b7916fe2213c7e7b890ba704a0c3624f7e207b7d9c461746f65"
+  },
+  "68": {
+    "name": "Moinho",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/19.png",
+    "sha256": "56578ebb5a4f4ae6de215fe0b2b7185d596be20a64995c069a336f50d718a411"
+  },
+  "82": {
+    "name": "Castelo",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/7.png",
+    "sha256": "701d9fc3add461d23ed2bbe244172e1a5dec903bed113000c498435441dc80c9"
+  },
+  "84": {
+    "name": "Mercado",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/16.png",
+    "sha256": "efd5891419d4faefb62556dd70e31884dd3457bba26a4eb89aec123588d92671"
+  },
+  "87": {
+    "name": "Campo de arqueiros",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/0.png",
+    "sha256": "481171f30ac2314bce39b9ebc3c020339e2452a1b091df03546e024d34a7b257"
+  },
+  "101": {
+    "name": "Estábulo",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/23.png",
+    "sha256": "547b2cf7771cdda392ef1fe9724f0ebc4fafa2669fb755a59681f61e2a23860c"
+  },
+  "103": {
+    "name": "Ferraria",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/4.png",
+    "sha256": "a4b7228e1e6ad9fee113a304e6edf761b7b5bf9993e86cc0f2b5ccf1246aedf9"
+  },
+  "104": {
+    "name": "Mosteiro",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/10.png",
+    "sha256": "18c4b8e689b93be80e9c4002fb1c9bc08238dbdba90b755b2a04d4926290caf9"
+  },
+  "109": {
+    "name": "Centro urbano",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/28.png",
+    "sha256": "5c8e27c91b9b4950f3adf9cefbdacae56378a982a7d5eec1c65d8763ad88e7d2"
+  },
+  "209": {
+    "name": "Universidade",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/33.png",
+    "sha256": "fefd3e8029471cfe39f3b509771278fdeb2f56cd2927124940196e3424f732cd"
+  },
+  "562": {
+    "name": "Acampamento madeireiro",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/40.png",
+    "sha256": "074c3a229b4e96f38aec5c86ff26ff93217c2b62b50954a06d66e6ab817a905b"
+  },
+  "584": {
+    "name": "Acampamento de mineração",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/39.png",
+    "sha256": "71f4f0c451a8d9428b3ad070667919560815aa80435b65e931ca393e42a4f559"
+  },
+  "1251": {
+    "name": "Krepost",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/55.png",
+    "sha256": "16147710606ff362e40d4ba292b1e7fc15f2d85f5df5933e919e54241c4044db"
+  },
+  "1665": {
+    "name": "Donjon",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/84.png",
+    "sha256": "28d3d10bac386ba1ad535fb1ae774ab800b9201077450a85f4f1e7dc1bdbd1b2"
+  },
+  "1734": {
+    "name": "Folwark",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/86.png",
+    "sha256": "538d52ae4c065a8d8790c1ca846d92388ceb7d96d5f8659c389f48fb48888139"
+  },
+  "1806": {
+    "name": "Igreja fortificada",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/88.png",
+    "sha256": "79b181b60d7d75cc8d10b584a6d4add129742d0114c37eca19e2461fe782ef1e"
+  },
+  "1808": {
+    "name": "Carro de mulas",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/89.png",
+    "sha256": "8b51b0d02a4086af34e9f641964f00c5d28073b1ae9f6bdcbdab87aa9a1d51e7"
+  },
+  "2556": {
+    "name": "Assentamento",
+    "url": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/98.png",
+    "sha256": "16319412f5414f66ab47b4bc4884d73dfc69d2a283efe924c1651fbcb0bb78aa"
+  }
+}

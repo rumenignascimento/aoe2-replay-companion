@@ -1,0 +1,9 @@
+mgz @ https://github.com/Stephenwb1/aoc-mgz/archive/ab223cd95f7ddd2f79954d9aa4ae248b6ff61c31.zip
+aocref==2.0.42
+construct==2.8.16
+tabulate==0.10.0
+websocket-client==1.9.0
+qrcode==8.2
+Pillow==11.3.0
+cryptography==46.0.3
+pyinstaller==6.16.0
