@@ -1,0 +1,14 @@
+{
+  "building": {
+    "source": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Building/7.png",
+    "sha256": "701d9fc3add461d23ed2bbe244172e1a5dec903bed113000c498435441dc80c9"
+  },
+  "unit": {
+    "source": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Unit/15.png",
+    "sha256": "8d87e80dfe8fc639be662b6a5b80094b9ca46881fcda63416573a1c5a61d4b7c"
+  },
+  "tech": {
+    "source": "https://raw.githubusercontent.com/SiegeEngineers/aoe2techtree/e56728e76b7d08301fba7b18d5f16bc8554c109a/img/Tech/6.png",
+    "sha256": "6a34d69d4c0735da73067b9bd47f74969c524467dc51b45e72ca7938a0748a18"
+  }
+}

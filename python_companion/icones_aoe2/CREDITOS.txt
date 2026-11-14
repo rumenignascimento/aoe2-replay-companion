@@ -1,0 +1,6 @@
+Ícones obtidos de https://github.com/SiegeEngineers/aoe2techtree
+Castelo (Building/7), aldeão (Unit/15), Tear (Tech/6).
+Age of Empires II © Microsoft Corporation.
+Game Icons © Hidden Path Entertainment, Forgotten Empires, SkyBox Labs, Ensemble Studios.
+Projeto AoE2 Tech Tree: Siege Engineers / HSZemi e colaboradores.
+https://www.xbox.com/en-us/developers/rules

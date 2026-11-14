@@ -1,0 +1,21 @@
+name: Validate Python Companion
+on:
+  push:
+    paths: ['python_companion/**', '.github/workflows/companion-*.yml']
+  pull_request:
+    paths: ['python_companion/**', '.github/workflows/companion-*.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: python_companion
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install cryptography==46.0.3
+      - run: python -m unittest discover -s tests -v
